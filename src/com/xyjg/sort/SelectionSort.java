@@ -1,5 +1,7 @@
 package com.xyjg.sort;
 
+import com.xyjg.util.CalUtil;
+
 /**
  * @ClassName SelectionSort
  * @Description 选择排序
@@ -10,18 +12,15 @@ public class SelectionSort {
     public static void main(String[] args) {
         int array[] = {3,5,2,9,1,8,4,7,6};
 
-        int min_position = 0;
-        int temp;
+        for(int i = 0; i < array.length - 1; i++) {
+            int min_position = i;
 
-        for(int i = 0; i < array.length; i++) {
-            for(int j = i; j < array.length; j++){
-                if(array[min_position] > array[j]) {
-                    temp = array[i];
-                    array[i] = array[j];
-                    array[j] = temp;
-                }
+            for(int j = i + 1; j < array.length; j++){
+                min_position = array[j] < array[min_position] ? j : min_position;
             }
-            min_position = i + 1;
+
+            CalUtil.swap(array, i ,min_position);
+
         }
 
         for (int i : array) {
