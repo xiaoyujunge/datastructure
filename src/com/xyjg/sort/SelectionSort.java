@@ -9,8 +9,7 @@ import com.xyjg.util.CalUtil;
  * @Date 2019-3-24
  **/
 public class SelectionSort {
-    public static void main(String[] args) {
-        int array[] = {3,5,2,9,1,8,4,7,6};
+    public static void sort(int[] array) {
 
         for(int i = 0; i < array.length - 1; i++) {
             int min_position = i;
@@ -23,8 +22,5 @@ public class SelectionSort {
 
         }
 
-        for (int i : array) {
-            System.out.print(i + " ");
-        }
     }
 }
