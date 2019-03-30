@@ -3,7 +3,7 @@ package com.xyjg.util;
 /**
  * @ClassName CalUtil
  * @Description 计算工具类
- * @Author Zhoucj
+ * @Author xyjg
  * @Date 2019-3-24
  **/
 public class CalUtil {

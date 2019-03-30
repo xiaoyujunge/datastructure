@@ -21,7 +21,7 @@ import com.xyjg.util.CalUtil;
  * 下次循环，还从已经交换过位置的数组第一个数开始，
  * 到倒数第二个结尾（倒数第一已经是最大了），倒数第二会是本次循环中最大的
  * 依次进行循环，就是冒泡排序
- * @Author Zhoucj
+ * @Author xyjg
  * @Date 2019-3-29
  **/
 public class BubbleSort {

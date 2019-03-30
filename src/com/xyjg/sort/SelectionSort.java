@@ -5,7 +5,7 @@ import com.xyjg.util.CalUtil;
 /**
  * @ClassName SelectionSort
  * @Description 选择排序
- * @Author Zhoucj
+ * @Author xyjg
  * @Date 2019-3-24
  **/
 public class SelectionSort {
